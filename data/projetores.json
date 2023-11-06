@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "projetor": "Projetor A",
+      "data": "2023-11-05",
+      "horario": "10:00"
+    },
+    {
+      "id": 2,
+      "projetor": "Projetor B",
+      "data": "2023-11-06",
+      "horario": "14:30"
+    }
+  ]
+  

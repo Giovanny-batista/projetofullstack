@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "titulo": "Nova Notícia 1",
+      "conteudo": "Esta é a primeira notícia do nosso aplicativo."
+    },
+    {
+      "id": 2,
+      "titulo": "Últimas Atualizações",
+      "conteudo": "Fique por dentro das últimas novidades do IFPI."
+    }
+  ]
+  

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Salas ou Laboratórios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agendamento de Salas ou Laboratórios</h1>
+    </header>
+
+    <main>
+        <form id="form-agendamento-salas">
+            <label for="local-sala">Local:</label>
+            <select id="local-sala" name="local-sala" required>
+                <option value="sala">Sala</option>
+                <option value="laboratorio">Laboratório</option>
+            </select>
+
+            <label for="data-sala">Data:</label>
+            <input type="date" id="data-sala" name="data-sala" required>
+
+            <label for="horario-sala">Horário:</label>
+            <input type="time" id="horario-sala" name="horario-sala" required>
+
+            <button type="submit">Agendar</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
